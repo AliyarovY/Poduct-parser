@@ -1,0 +1,14 @@
+# Core Scraping Framework
+scrapy==2.13.4
+
+# User Agent Randomization
+scrapy-user-agents==0.1.1
+
+# Proxy Rotation Support
+scrapy-rotating-proxies==0.6.2
+
+# HTTP Requests Library (for validation and debugging scripts)
+requests==2.32.5
+
+# Additional Dependencies
+python-dateutil==2.8.2  # For date/time handling if needed

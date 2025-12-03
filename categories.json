@@ -1,0 +1,27 @@
+[
+  {
+    "id": "2321",
+    "name": "Водка",
+    "url": "https://alkoteka.com/catalog/category/vodka/"
+  },
+  {
+    "id": "2322",
+    "name": "Коньяк",
+    "url": "https://alkoteka.com/catalog/category/konyak/"
+  },
+  {
+    "id": "2323",
+    "name": "Пиво",
+    "url": "https://alkoteka.com/catalog/category/pivo/"
+  },
+  {
+    "id": "2324",
+    "name": "Вино",
+    "url": "https://alkoteka.com/catalog/category/vino/"
+  },
+  {
+    "id": "2325",
+    "name": "Виски",
+    "url": "https://alkoteka.com/catalog/category/viski/"
+  }
+]

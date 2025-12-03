@@ -1,0 +1,33 @@
+# Example proxy file (proxies.txt)
+#
+# This file contains proxy addresses for rotating through multiple IPs
+# to avoid blocking by the target website.
+#
+# Supported formats:
+# - HTTP: http://ip:port or http://user:pass@ip:port
+# - SOCKS5: socks5://ip:port or socks5://user:pass@ip:port
+#
+# Uncomment the proxies you want to use or add your own:
+
+# Free proxy examples (may be slow or unreliable):
+# http://10.10.1.10:3128
+# http://proxy.example.com:8080
+# socks5://proxy.example.com:1080
+
+# Instructions for using with the spider:
+#
+# 1. Uncomment or add your actual proxy addresses to this file
+# 2. In settings.py, set: PROXY_ENABLED = True
+# 3. Make sure PROXY_FILE = "proxies.txt"
+# 4. Run the spider normally:
+#    scrapy crawl alkoteka -O result.json
+#
+# The spider will automatically rotate through the proxies
+# and blacklist failed proxies.
+
+# Note: It's recommended to use paid proxy services like:
+# - Bright Data (formerly Luminati)
+# - Oxylabs
+# - ScraperAPI
+# - ProxyMesh
+# - Smartproxy
